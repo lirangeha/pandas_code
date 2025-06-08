@@ -68,7 +68,7 @@ The top five sports include athletics, gymnastics, swimming, shooting, and cycli
 About 196,594 males and 74,522 females have competed within the Olympic Games.
 
 
-3. Using the code
+3. *Using the code*
 
 
 [ print(df.describe()) ]
@@ -97,6 +97,13 @@ The total count of the numbers are incredibly large however it is because of all
 **Extension:**
 
 The code
+
+print(df['NOC'].nunique())
+
+and
+
+print(df['NOC'].unique())
+
 
 This code indicates the number of countries in ascending order. URS (User Requirement Specification) refers to the requirements and expectations of the users within the system. GDR (Generalised Dimensionality Reduction) is a tecnique that reduces the number of variables in a dataset to make it more organised without removing any crucial information. FRG (Feature Ranking and Grouping) is a method for ranking and categorising features.
 
